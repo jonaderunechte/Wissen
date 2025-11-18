@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchülerWiki - Wissensdatenbank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>SchülerWiki</h1>
+            <p class="subtitle">Deine Wissensdatenbank</p>
+        </div>
+    </header>
+
+    <!-- Suchbereich -->
+    <div id="searchArea" class="search-container">
+        <div class="container">
+            <div class="search-box">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Durchsuche alle Artikel nach Titel, Tags oder Inhalt..."
+                    autocomplete="off"
+                >
+            </div>
+        </div>
+    </div>
+
+    <!-- Hauptinhalt -->
+    <main class="container">
+        <!-- Start-Ansicht -->
+        <div id="startView" class="start-view">
+            <p class="intro-text">🔍 Suche nach einem Thema, um zu beginnen</p>
+        </div>
+
+        <!-- Suchergebnisse -->
+        <div id="resultsView" class="results-view" style="display: none;">
+            <h2 id="resultsTitle"></h2>
+            <div id="resultsList"></div>
+        </div>
+
+        <!-- Artikel-Ansicht -->
+        <div id="articleView" class="article-view" style="display: none;">
+            <button id="backButton" class="back-button">← Zurück zu den Ergebnissen</button>
+            <article id="articleContent"></article>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
