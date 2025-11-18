@@ -1,0 +1,44 @@
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor-Dateien
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporäre Dateien
+
+*.tmp
+*.bak
+*.backup
+
+# Entwürfe und WIP
+
+drafts/
+wip/
+*.draft.md
+
+# Lokale Test-Dateien
+
+test/
+temp/
+
+# Node modules (falls später benötigt)
+
+node_modules/
+
+# Logs
+
+*.log
