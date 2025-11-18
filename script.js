@@ -14,20 +14,41 @@ const resultsList = document.getElementById('resultsList');
 const articleContent = document.getElementById('articleContent');
 const backButton = document.getElementById('backButton');
 
+// Base Path für GitHub Pages
+const BASE_PATH = '/Wissen';
+
+console.log('🚀 Script gestartet!');
+console.log('📍 Base Path:', BASE_PATH);
+
 // Initialisierung beim Laden der Seite
 document.addEventListener('DOMContentLoaded', async () => {
+    console.log('📄 Seite geladen, starte Initialisierung...');
     await loadArticlesIndex();
     setupEventListeners();
+    console.log('✅ Initialisierung abgeschlossen!');
 });
 
 // Artikel-Index laden
 async function loadArticlesIndex() {
+    console.log('📂 Versuche articles-index.json zu laden...');
+    
     try {
-        const response = await fetch('data/articles-index.json');
+        const url = `${BASE_PATH}/data/articles-index.json`;
+        console.log('   URL:', url);
+        
+        const response = await fetch(url);
+        console.log('   Status:', response.status);
+        
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+        }
+        
         articlesIndex = await response.json();
-        console.log(`${articlesIndex.length} Artikel geladen`);
+        console.log(`✅ ${articlesIndex.length} Artikel geladen:`, articlesIndex);
+        
     } catch (error) {
-        console.error('Fehler beim Laden des Artikel-Index:', error);
+        console.error('❌ Fehler beim Laden:', error);
+        console.error('🔍 Prüfe: https://jonaderunechte.github.io/Wissen/data/articles-index.json');
         articlesIndex = [];
     }
 }
@@ -52,6 +73,16 @@ function handleSearch(searchTerm) {
         return;
     }
     
+    if (articlesIndex.length === 0) {
+        console.error('❌ Artikel-Index ist leer!');
+        resultsView.style.display = 'block';
+        startView.style.display = 'none';
+        articleView.style.display = 'none';
+        resultsTitle.textContent = 'Fehler beim Laden der Artikel';
+        resultsList.innerHTML = '<p class="intro-text">❌ Artikel konnten nicht geladen werden. Öffne die Konsole (F12) für Details.</p>';
+        return;
+    }
+    
     // Suchbereich nach oben animieren
     searchArea.classList.add('active');
     
@@ -61,6 +92,8 @@ function handleSearch(searchTerm) {
 
 // Volltext-Suche durchführen
 async function performSearch(searchTerm) {
+    console.log(`🔍 Suche nach: "${searchTerm}"`);
+    
     const lowerSearchTerm = searchTerm.toLowerCase();
     const results = [];
     
@@ -102,6 +135,7 @@ async function performSearch(searchTerm) {
         
         // Ergebnis hinzufügen, wenn mindestens ein Match
         if (score > 0) {
+            console.log(`   ✓ Match: ${article.title} (Score: ${score})`);
             results.push({
                 ...article,
                 score: score,
@@ -113,6 +147,8 @@ async function performSearch(searchTerm) {
     // Nach Relevanz sortieren
     results.sort((a, b) => b.score - a.score);
     
+    console.log(`📊 ${results.length} Ergebnisse gefunden`);
+    
     currentSearchResults = results;
     displayResults(results);
 }
@@ -120,12 +156,22 @@ async function performSearch(searchTerm) {
 // Artikel-Inhalt laden
 async function loadArticleContent(filename) {
     try {
-        const response = await fetch(`articles/${filename}`);
+        const url = `${BASE_PATH}/articles/${filename}`;
+        console.log(`📄 Lade: ${url}`);
+        
+        const response = await fetch(url);
+        
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+        }
+        
         const content = await response.text();
         allArticlesContent[filename] = content;
+        console.log(`   ✅ Geladen (${content.length} Zeichen)`);
         return content;
+        
     } catch (error) {
-        console.error(`Fehler beim Laden von ${filename}:`, error);
+        console.error(`❌ Fehler bei ${filename}:`, error);
         return '';
     }
 }
@@ -189,6 +235,8 @@ function createResultCard(article) {
 
 // Artikel anzeigen
 async function showArticle(article) {
+    console.log(`📖 Öffne: ${article.title}`);
+    
     resultsView.style.display = 'none';
     articleView.style.display = 'block';
     
@@ -230,9 +278,15 @@ function renderMarkdown(article, content) {
             const match = line.match(/!\[(.*?)\]\((.*?)\)/);
             if (match) {
                 const altText = match[1];
-                const imagePath = match[2];
+                let imagePath = match[2];
+                
+                // Wenn relativer Pfad, BASE_PATH hinzufügen
+                if (!imagePath.startsWith('http') && !imagePath.startsWith('/')) {
+                    imagePath = `${BASE_PATH}/${imagePath}`;
+                }
+                
                 html += `<div class="article-image">
-                    <img src="${imagePath}" alt="${altText}" onerror="this.parentElement.innerHTML='<div class=image-placeholder>[Bild: ${altText}]</div>'">
+                    <img src="${imagePath}" alt="${altText}" onerror="this.parentElement.innerHTML='<div class=\\'image-placeholder\\'>[Bild: ${altText}]</div>'">
                 </div>`;
             }
         }
@@ -293,3 +347,5 @@ function showStartView() {
     articleView.style.display = 'none';
     startView.style.display = 'block';
 }
+
+console.log('✅ Script vollständig geladen!');
