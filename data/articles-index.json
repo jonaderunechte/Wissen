@@ -46,5 +46,18 @@
             "Erdkunde",
             "Nachhaltigkeit"
         ]
+    },
+    {
+        "id": "barenaked-ladies",
+        "title": "Barenaked Ladies",
+        "filename": "barenaked-ladies.md",
+        "description": "Die kanadische Rock-Band bekannt für Hits wie One Week und den Big Bang Theory Theme Song",
+        "tags": [
+            "Musik",
+            "Rock",
+            "Pop",
+            "Kanada",
+            "Band"
+        ]
     }
 ]
