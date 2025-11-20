@@ -248,6 +248,39 @@ header .subtitle {
     font-style: italic;
 }
 
+/* Videos eingebettet */
+.article-video-embed {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #404040;
+    border-radius: 12px;
+    border: 2px solid #505050;
+}
+
+.video-title {
+    color: #60a5fa;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
 /* Videos */
 .article-video {
     margin: 1.5rem 0;
