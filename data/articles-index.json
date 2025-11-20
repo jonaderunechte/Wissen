@@ -26,32 +26,4 @@
     "filename": "klimawandel.md",
     "description": "Die globale Erwärmung und ihre Auswirkungen auf unseren Planeten",
     "tags": ["Umwelt", "Klima", "Erdkunde", "Nachhaltigkeit"]
-  }[
-  {
-    "id": "quantenphysik",
-    "title": "Quantenphysik",
-    "filename": "quantenphysik.md",
-    "description": "Eine Einführung in die faszinierende Welt der Quantenmechanik und ihrer Grundprinzipien",
-    "tags": ["Physik", "Wissenschaft", "Quanten", "Moderne Physik"]
-  },
-  {
-    "id": "photosynthese",
-    "title": "Photosynthese",
-    "filename": "photosynthese.md",
-    "description": "Der biochemische Prozess, durch den Pflanzen Lichtenergie in chemische Energie umwandeln",
-    "tags": ["Biologie", "Pflanzen", "Biochemie", "Ökologie"]
-  },
-  {
-    "id": "schwarze-loecher",
-    "title": "Schwarze Löcher",
-    "filename": "schwarze-loecher.md",
-    "description": "Geheimnisvolle Objekte im Universum, aus denen nicht einmal Licht entkommen kann",
-    "tags": ["Astronomie", "Astrophysik", "Weltraum", "Relativitätstheorie"]
-  },
-  {
-    "id": "klimawandel",
-    "title": "Klimawandel",
-    "filename": "klimawandel.md",
-    "description": "Die globale Erwärmung und ihre Auswirkungen auf unseren Planeten",
-    "tags": ["Umwelt", "Klima", "Erdkunde", "Nachhaltigkeit"]
   }
