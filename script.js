@@ -296,11 +296,38 @@ function renderMarkdown(article, content) {
             if (match) {
                 const linkText = match[1];
                 const url = match[2];
-                // YouTube-Links besonders kennzeichnen
+                
+                // YouTube-Videos einbetten
                 if (url.includes('youtube.com') || url.includes('youtu.be')) {
-                    html += `<div class="article-video">
-                        🎥 <a href="${url}" target="_blank" rel="noopener">${linkText}</a>
-                    </div>`;
+                    let videoId = '';
+                    
+                    // Extrahiere Video-ID aus verschiedenen YouTube-URL-Formaten
+                    if (url.includes('youtube.com/watch?v=')) {
+                        videoId = url.split('v=')[1].split('&')[0];
+                    } else if (url.includes('youtu.be/')) {
+                        videoId = url.split('youtu.be/')[1].split('?')[0];
+                    } else if (url.includes('youtube.com/embed/')) {
+                        videoId = url.split('embed/')[1].split('?')[0];
+                    }
+                    
+                    if (videoId) {
+                        html += `<div class="article-video-embed">
+                            <h4 class="video-title">🎥 ${linkText}</h4>
+                            <div class="video-wrapper">
+                                <iframe 
+                                    src="https://www.youtube.com/embed/${videoId}" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>`;
+                    } else {
+                        // Fallback wenn Video-ID nicht extrahiert werden kann
+                        html += `<div class="article-video">
+                            🎥 <a href="${url}" target="_blank" rel="noopener">${linkText}</a>
+                        </div>`;
+                    }
                 } else {
                     html += `<p><a href="${url}" target="_blank" rel="noopener">${linkText}</a></p>`;
                 }
