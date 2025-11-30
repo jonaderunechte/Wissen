@@ -85,5 +85,18 @@
             "Kultur",
             "Mensch"
         ]
+    },
+    {
+        "id": "stellung-des-menschen-im-kosmos",
+        "title": "Die Stellung des Menschen im Kosmos",
+        "filename": "stellung-des-menschen-im-kosmos.md",
+        "description": "Max Schelers philosophischer Essay über das Wesen des Menschen und den Unterschied zu Tieren",
+        "tags": [
+            "Philosophie",
+            "Anthropologie",
+            "Max Scheler",
+            "Geist",
+            "Phänomenologie"
+        ]
     }
 ]
