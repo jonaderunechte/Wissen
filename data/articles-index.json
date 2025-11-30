@@ -59,5 +59,31 @@
             "Kanada",
             "Band"
         ]
+    },
+    {
+        "id": "urknall",
+        "title": "Der Urknall",
+        "filename": "urknall.md",
+        "description": "Die Entstehung von Raum, Zeit und Materie - wie unser Universum vor 13,8 Milliarden Jahren begann",
+        "tags": [
+            "Astronomie",
+            "Kosmologie",
+            "Physik",
+            "Universum",
+            "Wissenschaft"
+        ]
+    },
+    {
+        "id": "menschliche-unangepasstheit",
+        "title": "Menschliche Unangepasstheit",
+        "filename": "menschliche-unangepasstheit.md",
+        "description": "Wie der Mensch durch seine biologische Unangepasstheit die zweite Natur erschuf",
+        "tags": [
+            "Philosophie",
+            "Anthropologie",
+            "Ethik",
+            "Kultur",
+            "Mensch"
+        ]
     }
 ]
