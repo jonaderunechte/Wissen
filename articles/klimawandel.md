@@ -15,7 +15,7 @@ Klimawandel bezeichnet die langfristige Veränderung der durchschnittlichen Wett
 
 Ein kalter Winter widerlegt also nicht den Klimawandel!
 
-[Klimawandel vs. Wetter - Der Unterschied](https://www.youtube.com/watch?v=cBdxDFpDp_s)
+[Klimawandel vs. Wetter - Der Unterschied](https://www.youtube.com/watch?v=TxuFxwa9ARg)
 
 ## Die Wissenschaft hinter dem Klimawandel
 
@@ -86,7 +86,7 @@ Die durchschnittliche globale Temperatur ist seit 1880 um etwa 1,2°C gestiegen.
 - Grönlands Eisschild verliert jährlich etwa 280 Milliarden Tonnen Eis
 - Weltweit schmelzen Gletscher in den Alpen, Anden, Himalaya
 
-[Die schmelzenden Pole](https://www.youtube.com/watch?v=0oBodJHX1YQ)
+[Die schmelzenden Pole](https://www.youtube.com/watch?v=t4fSN_xIgRM)
 
 ### 3. Steigender Meeresspiegel
 
@@ -207,7 +207,7 @@ Weltweit werden Projekte zur Wiederaufforstung gestartet. Bäume binden CO₂ un
 - An Demonstrationen teilnehmen
 - Andere informieren und inspirieren
 
-[10 Dinge, die du gegen den Klimawandel tun kannst](https://www.youtube.com/watch?v=0O3sl7L39rs)
+[10 Dinge, die du gegen den Klimawandel tun kannst](https://www.youtube.com/watch?v=eOnXVjWFIk4)
 
 ## Mythen und Fakten
 
@@ -245,7 +245,13 @@ Trotz der ernsten Lage gibt es Grund für Hoffnung:
 - **Jugend**: Die junge Generation (Fridays for Future) fordert Veränderung
 - **Wirtschaft**: Auch Unternehmen erkennen die Notwendigkeit und Chancen
 
-[Lösungen für den Klimawandel](https://www.youtube.com/watch?v=D4v2PL0iT-w)
+[Lösungen für den Klimawandel](https://www.youtube.com/watch?v=itllxeBM8ro)
+Allerdings von vor vier Jahren... 
+
+
+deshalb hier:
+[Harald Lesch's Offene Meinung](https://www.youtube.com/watch?v=6aMzbh2Wp8s)
+
 
 ## Fazit
 
