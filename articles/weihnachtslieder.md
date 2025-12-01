@@ -305,8 +305,6 @@ Repräsentiert die Vielfalt der Weihnachtsfeiern weltweit und bringt lateinameri
 
 ![Weihnachtslieder Einnahmen](images/christmas-earnings.jpg)
 
-[Wie Mariah Carey mit einem Song reich wurde](https://www.youtube.com/watch?v=k3AxRqPpDMk)
-
 ## Warum sind Weihnachtslieder so erfolgreich?
 
 ### Psychologische Faktoren
