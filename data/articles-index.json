@@ -139,14 +139,16 @@
         ]
     },
     {
-    "title": "Die 15 beliebtesten Weihnachtslieder",
-    "file": "Weihnachtslieder.md",
-    "description": "Ein ausführlicher Artikel über die 15 meistgehörten Weihnachtslieder aller Zeiten, inklusive Videos und Bildvorschlägen.",
-    "tags": [
-        "Musik",
-        "Weihnachten",
-        "Toplisten",
-        "Kultur"
-    ]
+        "id": "weihnachtslieder",
+        "title": "Die populärsten Weihnachtslieder",
+        "filename": "weihnachtslieder.md",
+        "description": "Die meistgestreamten Weihnachtslieder mit Statistiken, Geschichte und wirtschaftlicher Bedeutung",
+        "tags": [
+            "Musik",
+            "Weihnachten",
+            "Popkultur",
+            "Streaming",
+            "Kultur"
+        ]
     }
 ]
