@@ -98,5 +98,31 @@
             "Geist",
             "Phänomenologie"
         ]
+    },
+    {
+        "id": "zeitalter-der-moderne",
+        "title": "Zeitalter der Moderne",
+        "filename": "zeitalter-der-moderne.md",
+        "description": "Die historische Epoche vom 18. bis 20. Jahrhundert - Industrialisierung, Revolutionen und kultureller Wandel",
+        "tags": [
+            "Geschichte",
+            "Moderne",
+            "Industrialisierung",
+            "Kultur",
+            "19. Jahrhundert"
+        ]
+    },
+    {
+        "id": "operatoren-klassenarbeiten",
+        "title": "Operatoren in Klassenarbeiten",
+        "filename": "operatoren-klassenarbeiten.md",
+        "description": "Methoden und Operatoren für schulische Prüfungen - Beschreiben, Erklären, Erörtern und mehr",
+        "tags": [
+            "Schule",
+            "Lernen",
+            "Prüfungen",
+            "Methodik",
+            "Bildung"
+        ]
     }
 ]
