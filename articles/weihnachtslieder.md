@@ -79,7 +79,7 @@ George Michaels Estate generiert jährlich erhebliche Streaming-Zahlen, was sowo
 
 ### 3. Rockin' Around the Christmas Tree – Brenda Lee
 
-[Rockin' Around the Christmas Tree - Brenda Lee](https://www.youtube.com/watch?v=6GCng7cjw58)
+[Rockin' Around the Christmas Tree - Brenda Lee](https://www.youtube.com/watch?v=TFsZy9t-qDc)
 
 **Nostalgischer Klassiker aus 1958**, der auch Jahrzehnte später nichts von seiner Popularität eingebüßt hat.
 
@@ -155,7 +155,7 @@ Im Gegensatz zu vielen traditionellen Weihnachtsliedern thematisiert der Song **
 
 ### 6. It's Beginning to Look a Lot Like Christmas – Michael Bublé
 
-[It's Beginning to Look a Lot Like Christmas - Michael Bublé](https://www.youtube.com/watch?v=6M_6nhBJZS4)
+[It's Beginning to Look a Lot Like Christmas - Michael Bublé](https://www.youtube.com/watch?v=QJ5DOWPGxwg)
 
 **Modern interpretierter Weihnachtsklassiker**, der besonders für gemütliche, nostalgische Stimmung geeignet ist.
 
@@ -272,7 +272,7 @@ Repräsentiert die Vielfalt der Weihnachtsfeiern weltweit und bringt lateinameri
 | 8 | It's the Most Wonderful Time | Andy Williams | 1963 | 1,01 Mrd. | 13,79 Mio. |
 | 9 | Feliz Navidad | José Feliciano | 1970 | 811 Mio. | - |
 
-[Die meistgestreamten Weihnachtslieder 2024](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[Die meistgestreamten Weihnachtslieder 2024](https://www.youtube.com/watch?v=t_HUlkHYz4A)
 
 ## Wirtschaftliche Bedeutung
 
