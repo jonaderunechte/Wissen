@@ -124,5 +124,18 @@
             "Methodik",
             "Bildung"
         ]
+    },
+    {
+        "id": "neuer-wehrdienst",
+        "title": "Neuer Wehrdienst",
+        "filename": "neuer-wehrdienst.md",
+        "description": "Die Reform des deutschen Wehrdiensts ab 2026 - Freiwilligkeit, Musterung und Personalaufbau der Bundeswehr",
+        "tags": [
+            "Politik",
+            "Bundeswehr",
+            "Deutschland",
+            "Sicherheit",
+            "Gesellschaft"
+        ]
     }
 ]
