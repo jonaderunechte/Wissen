@@ -150,5 +150,31 @@
             "Streaming",
             "Kultur"
         ]
+    },
+    {
+        "id": "bruttoinlandsprodukt",
+        "title": "Bruttoinlandsprodukt (BIP)",
+        "filename": "bruttoinlandsprodukt.md",
+        "description": "Die wichtigste Kennzahl der Volkswirtschaft - Definition, Berechnung, Bedeutung und Kritik",
+        "tags": [
+            "Wirtschaft",
+            "VWL",
+            "Politik",
+            "Bildung",
+            "Finanzen"
+        ]
+    },
+    {
+        "id": "lorentzkraft-hallspannung",
+        "title": "Lorentzkraft und Hallspannung",
+        "filename": "lorentzkraft-hallspannung.md",
+        "description": "Fundamentale Elektrodynamik - Lorentzkraft, Halleffekt und Elektronenbahn im Plattenkondensator",
+        "tags": [
+            "Physik",
+            "Elektrodynamik",
+            "Wissenschaft",
+            "Elektrizität",
+            "Magnetismus"
+        ]
     }
 ]
